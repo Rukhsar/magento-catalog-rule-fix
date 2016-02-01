@@ -1,5 +1,15 @@
 <?xml version="1.0"?>
 <config>
+	<crontab>
+        <jobs>
+				<!-- We can use the cronjob tab for defining our custom cron job. But without this tab code, extension
+							will work as long as you have setup a cron job for your Magento Installation.	-->
+            <cronjob_code>
+                <schedule><cron_expr>*/5 * * * *</cron_expr></schedule>
+                <run><model>fixcatalogrule/observer::dailycatalogupdate</model></run>
+            </cronjob_code>
+        </jobs>
+    </crontab>
 	<modules>
 		<Rukhsar_FixCatalogRule>
 			<version>1.0.0</version>

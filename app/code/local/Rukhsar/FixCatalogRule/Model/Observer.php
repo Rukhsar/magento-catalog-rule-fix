@@ -23,7 +23,9 @@ class Rukhsar_FixCatalogRule_Model_Observer extends Mage_CatalogRule_Model_Obser
 		Mage::getModel('catalogrule/flag')->loadSelf()
 			->setState(0)
 			->save();
+    Mage::log("Catalog Rules Applied Successfully");
 
         return $this;
     }
 }
+?>
