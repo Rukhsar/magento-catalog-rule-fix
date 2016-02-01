@@ -7,11 +7,11 @@
 	</modules>
 	<global>
 		<models>
-			<catalogrule>
+			<fixcatalogrule>
 				<rewrite>
 					<observer>Rukhsar_FixCatalogRule_Model_Observer</observer>
 				</rewrite>
-			</catalogrule>
+			</fixcatalogrule>
 		</models>
 	</global>
 </config>
