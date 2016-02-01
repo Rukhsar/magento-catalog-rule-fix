@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Rukhsar_FixCatalogRule>
+			<version>1.0.0</version>
+		</Rukhsar_FixCatalogRule>
+	</modules>
+	<global>
+		<models>
+			<catalogrule>
+				<rewrite>
+					<observer>Rukhsar_FixCatalogRule_Model_Observer</observer>
+				</rewrite>
+			</catalogrule>
+		</models>
+	</global>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rukhsar_FixCatalogRule>
+            <active>true</active>
+            <codePool>local</codePool>
+			<depends>
+				<Mage_CatalogRule/>
+			</depends>
+        </Rukhsar_FixCatalogRule>
+    </modules>
+</config>
