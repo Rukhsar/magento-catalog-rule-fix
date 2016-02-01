@@ -1,6 +1,5 @@
--Catalog Rule Fix
--====================================
--
+Catalog Rule Fix
+====================================
 -Every night Magento clears the catalog price rules and then can not restore them.
 -This extension modifies the recovery process to fix it.
 -Cancellation and recovery procedures are called automatically every night by cron.
